@@ -29,7 +29,7 @@ from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="YojanaSetu", page_icon="🏛️", layout="wide")
 
-DATA_DIR = "data"
+DATA_DIR = "."
 
 INDIAN_STATES = [
     "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa",
