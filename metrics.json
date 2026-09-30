@@ -1,0 +1,112 @@
+{
+  "n_total": 3397,
+  "n_train": 2717,
+  "n_test": 680,
+  "n_classes": 15,
+  "train_accuracy": 0.9974,
+  "test_accuracy": 0.7971,
+  "cv_accuracy_mean": 0.7942,
+  "cv_accuracy_std": 0.0112,
+  "test_macro_f1": 0.549,
+  "test_weighted_f1": 0.7793,
+  "majority_baseline_accuracy": 0.2809,
+  "per_class": {
+    "Agriculture": {
+      "precision": 0.904,
+      "recall": 0.944,
+      "f1-score": 0.924,
+      "support": 90
+    },
+    "Banking": {
+      "precision": 0.583,
+      "recall": 0.467,
+      "f1-score": 0.519,
+      "support": 30
+    },
+    "Business & Entrepreneurship": {
+      "precision": 0.821,
+      "recall": 0.821,
+      "f1-score": 0.821,
+      "support": 84
+    },
+    "Education & Learning": {
+      "precision": 0.844,
+      "recall": 0.94,
+      "f1-score": 0.89,
+      "support": 150
+    },
+    "Health & Wellness": {
+      "precision": 0.8,
+      "recall": 0.727,
+      "f1-score": 0.762,
+      "support": 33
+    },
+    "Housing & Shelter": {
+      "precision": 0.833,
+      "recall": 0.357,
+      "f1-score": 0.5,
+      "support": 14
+    },
+    "Public Safety": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Science": {
+      "precision": 0.667,
+      "recall": 0.444,
+      "f1-score": 0.533,
+      "support": 9
+    },
+    "Skills & Employment": {
+      "precision": 0.63,
+      "recall": 0.567,
+      "f1-score": 0.596,
+      "support": 30
+    },
+    "Social welfare & Empowerment": {
+      "precision": 0.757,
+      "recall": 0.864,
+      "f1-score": 0.807,
+      "support": 191
+    },
+    "Sports & Culture": {
+      "precision": 0.778,
+      "recall": 0.824,
+      "f1-score": 0.8,
+      "support": 17
+    },
+    "Transport & Infrastructure": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6
+    },
+    "Travel & Tourism": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1-score": 0.571,
+      "support": 5
+    },
+    "Utility & Sanitation": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 4
+    },
+    "Women and Child": {
+      "precision": 0.5,
+      "recall": 0.062,
+      "f1-score": 0.111,
+      "support": 16
+    }
+  },
+  "recommender": {
+    "hit_at_10": 0.6897,
+    "hit_at_50": 0.9353,
+    "hit_at_100": 0.9559,
+    "median_rank": 5,
+    "n_profiles": 680
+  }
+}
